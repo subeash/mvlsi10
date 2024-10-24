@@ -4,12 +4,27 @@
   
 **Fig. 1. Gradual channel approximation**
 
-  
+# MOSFET Experiment Procedure
 
-**Steps to perform the real measurement in HP 4145B Semiconductor Parameter Analyzer**  
+1. **Set the MOSFET Parameters:**
+   * Adjust the width (_W_) and length (_L_) of the MOSFET channel using the input fields. For example, set _W_ = 1E-6 m and _L_ = 1E-7 m.
+   * Set the mobility (_μ_) value. In this case, use _μ_ = 1400 cm²/V·s.
+   * Set the maximum drain-to-source voltage (_VDS,max_) to 10 V.
 
-In this simulation, the bulk of the semiconductor is grounded and V is the voltage on the metal gate, $$t_{ox}$$ is the thickness of the oxide, $$E_g$$ is the band gap which can be temperature dependent, $$ϵ_{ox}$$ is the relative dielectric constant of the oxide, $$ϵ_s$$ is the relative dielectric constant of the semiconductor, $$E_s$$ is the electric field at the semiconductor-oxide interface, Q is the charge on the charge on the semiconductor, $$ϕ_m$$ is the work function of the metal, $$χ_s$$ is the electron affinity of the semiconductor, $$V_s$$ is the voltage at the semiconductor-oxide interface, T is the absolute temperature, $$N_A$$ is the concentration of acceptors, $$N_c(300)$$ is the effective density of states in the conduction band at 300 K, and $$N_v(300)$$ is the effective density of states in the valence band at 300 K. Note that in the band diagram, the band gap of the oxide is drawn 2 eV larger than the band gap of the semiconductor. In reality, the band gap of the oxide would be much larger but it is easier to see the band bending when the diagram is plotted with a small band gap for the gate oxide.
+2. **Configure the Gate-to-Source Voltages (_VG_):**
+   * Enter the desired _VG_ values in the input fields. You can set multiple values, for example, from 2 V to 11 V in steps of 1 V.
 
-The - and + buttons change the gate voltage by ±0.01±0.01\\pm 0.01 V.
+3. **Set the Material Properties:**
+   * Specify the material parameters such as the work function (_φ<sub>m</sub>_), electron affinity (_χ<sub>s</sub>_), and oxide thickness (_t<sub>ox</sub>_), among others.
+   * Use typical values like _φ<sub>m</sub>_ = 4.08 eV, _χ<sub>s</sub>_ = 4.05 eV, _t<sub>ox</sub>_ = 3 nm, and _ε<sub>ox</sub>_ = 4.
+   * Set semiconductor parameters such as _ε<sub>semi</sub>_ (permittivity of the semiconductor), _N<sub>A</sub>_ (acceptor doping concentration), and temperature (_T_).
 
-When the metal and the semicondutor are electrically connected, electrons flow from the material with a low work function to the material with a high work function. This current flow stops when a built-in voltage is established that is equal to the work function difference, $$Vbi\=ϕm−ϕsVbi\=ϕm−ϕsV\_{bi}=\\phi\_m-\\phi\_s$$. The work function of a semiconductor depends on the electron affinity χsχs\\chi\_s and the doping, $$ϕs\=χs+Ec−EFϕs\=χs+Ec−EF\\phi\_s=\\chi\_s+E\_c-E\_F$$.
+4. **Click on the "Replot" Button:**
+   * Press the "Replot" button to generate the output characteristics curves, which plot _I<sub>D</sub>_ (drain current) versus _V<sub>DS</sub>_ for each selected _V<sub>G</sub>_.
+
+5. **Analyze the Output Characteristics:**
+   * Observe how the drain current (_I<sub>D</sub>_) varies with the drain-to-source voltage (_V<sub>DS</sub>_) for different gate voltages (_V<sub>G</sub>_).
+   * Identify the different operating regions (cutoff, linear, and saturation) for each curve.
+
+6. **Optional - Modify Parameters:**
+   * To further explore the MOSFET behavior, modify the parameters (e.g., _W_, _L_, _V<sub>G</sub>_ values) and click "Replot" again to observe the changes in the output characteristics.
