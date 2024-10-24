@@ -1,9 +1,9 @@
 ## References
 #### Books
-1) Christian C. Enz and Eric A. Vittoz, Charge-Based MOS Transistor Modeling: The EKV model for low-power and RF IC design, Wiley, 2006
+1) S.M. Sze and Kwok K. Ng, Physics of Semiconductor Devices, 3rd Edition, Wiley, 2007
 
-2) S. M. Sze and Kwok K. Ng, Physics of Semiconductor Devices, Wiley, 2006
+2) Yannis Tsividis and Colin McAndrew, Operation and Modeling of the MOS Transistor, 3rd Edition, Oxford University Press, 2010
 
 #### Video Lectures
-- [MOS capacitor](https://www.youtube.com/watch?v=Gwyi2brc0QQ)
+- [Metal Oxide Semiconductor Field](https://www.youtube.com/watch?v=KsG_rsGF2g8)
 
