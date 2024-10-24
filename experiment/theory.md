@@ -5,7 +5,9 @@
 The output characteristics of an n-channel Metal-Oxide-Semiconductor Field-Effect Transistor (MOSFET) describe how the drain current (*I*<sub>D</sub>) varies as a function of the drain-to-source voltage (*V*<sub>DS</sub>) for different gate-to-source voltage (*V*<sub>G</sub>) levels. These characteristics are essential for understanding the behavior of MOSFETs in electronic circuits, especially in applications such as amplification, switching, and digital logic.
 
 <img src="images/tvic.jpg"  /> 
+
 **Fig. 1. Ideal I-V output characteristics of an nMOS transistor**
+
 
 ## MOSFET Regions of Operation
 
