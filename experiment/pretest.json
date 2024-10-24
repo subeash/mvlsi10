@@ -1,115 +1,118 @@
   {
 	  "version": 2.0,
   "questions": [
+    
     {
-      "question": "1. What does the term 'Gummel plot' specifically refer to in the context of BJT characterization?",
-      "answers": {
-        "a": "A plot of base-emitter voltage (V_BE) versus collector current (I_C)",
-        "b": "A plot of base current (I_B) versus base-emitter voltage (V_BE)",
-        "c": "A plot of collector current (I_C) versus base current (I_B)",
-        "d": "A plot of base-emitter voltage (V_BE) versus base current (I_B)"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+        "question": "1. What is the output characteristic of an n-channel MOSFET?",
+        "answers": {
+            "a": "Variation of drain current with gate voltage",
+            "b": "Variation of drain current with drain-to-source voltage",
+            "c": "Variation of gate current with drain voltage",
+            "d": "Variation of gate-to-source voltage with temperature"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
     },
     {
-      "question": "2. In a Gummel plot, what does the slope of the base current (I_B) versus base-emitter voltage (V_BE) plot represent?",
-      "answers": {
-        "a": "Saturation current (I_S)",
-        "b": "Current gain (\u03b2)",
-        "c": "Emitter efficiency",
-        "d": "Thermal voltage (V_T)"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+        "question": "2. In which region does the n-channel MOSFET behave like a variable resistor?",
+        "answers": {
+            "a": "Cutoff region",
+            "b": "Linear (ohmic) region",
+            "c": "Saturation region",
+            "d": "Breakdown region"
+        },
+        "correctAnswer": "b",
+        "difficulty": "intermediate"
     },
     {
-      "question": "3. The Gummel plot is commonly used to determine which of the following parameters of a BJT?",
-      "answers": {
-        "a": "Collector-emitter voltage (V_CE)",
-        "b": "Base-emitter voltage (V_BE)",
-        "c": "Saturation current (I_S)",
-        "d": "Thermal resistance (R_th)"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+        "question": "3. What happens to the MOSFET in the cutoff region?",
+        "answers": {
+            "a": "The drain current is maximum",
+            "b": "The MOSFET acts as a short circuit",
+            "c": "The drain current is negligible or zero",
+            "d": "The gate current increases rapidly"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
     },
     {
-      "question": "4. What is the primary purpose of characterizing a BJT using the Gummel plot method?",
-      "answers": {
-        "a": "To analyze power dissipation",
-        "b": "To optimize frequency response",
-        "c": "To extract key parameters like current gain and saturation current",
-        "d": "To measure voltage drop across the collector-emitter junction"
-      },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
+        "question": "4. What condition defines the onset of the saturation region in an n-channel MOSFET?",
+        "answers": {
+            "a": "V_DS > V_G - V_T",
+            "b": "V_DS < V_G - V_T",
+            "c": "V_G < V_T",
+            "d": "V_G = 0"
+        },
+        "correctAnswer": "a",
+        "difficulty": "intermediate"
     },
     {
-      "question": "5. What does the ideality factor in a BJT refer to?",
-      "answers": {
-        "a": "A measure of how closely the BJT follows the ideal exponential relationship",
-        "b": "A measure of collector current efficiency",
-        "c": "A measure of base current leakage",
-        "d": "A measure of temperature dependence"
-      },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+        "question": "5. What is the primary factor controlling the drain current in the saturation region?",
+        "answers": {
+            "a": "Drain voltage",
+            "b": "Gate voltage",
+            "c": "Source current",
+            "d": "Oxide thickness"
+        },
+        "correctAnswer": "b",
+        "difficulty": "intermediate"
     },
     {
-      "question": "6. How does the Gummel plot help in analyzing BJT operation in different regions?",
-      "answers": {
-        "a": "By identifying breakdown voltage",
-        "b": "By showing linear and saturation regions clearly",
-        "c": "By measuring thermal resistance",
-        "d": "By calculating power gain"
-      },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
+        "question": "6. What is the role of the threshold voltage (V_T) in an n-channel MOSFET?",
+        "answers": {
+            "a": "It determines the maximum drain current",
+            "b": "It indicates the onset of conduction between drain and source",
+            "c": "It controls the source current",
+            "d": "It adjusts the gate-to-drain capacitance"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
     },
     {
-      "question": "7. What does the slope of the collector current (I_C) versus base-emitter voltage (V_BE) plot determine?",
-      "answers": {
-        "a": "Emitter efficiency",
-        "b": "Saturation current (I_S)",
-        "c": "Current gain (\u03b2)",
-        "d": "Thermal voltage (V_T)"
-      },
-      "correctAnswer": "b",
-      "difficulty": "advanced"
+        "question": "7. How does the drain current (I_D) vary with V_DS in the saturation region?",
+        "answers": {
+            "a": "It increases linearly",
+            "b": "It remains nearly constant",
+            "c": "It decreases exponentially",
+            "d": "It oscillates with frequency"
+        },
+        "correctAnswer": "b",
+        "difficulty": "intermediate"
     },
     {
-      "question": "8. In a Gummel plot, what does the term 'early effect' refer to?",
-      "answers": {
-        "a": "Voltage dependence of collector current",
-        "b": "Temperature dependence of base current",
-        "c": "Voltage dependence of base current",
-        "d": "Temperature dependence of collector current"
-      },
-      "correctAnswer": "a",
-      "difficulty": "advanced"
+        "question": "8. Which parameter primarily influences the mobility (μ) in a MOSFET?",
+        "answers": {
+            "a": "Temperature",
+            "b": "Drain voltage",
+            "c": "Gate width",
+            "d": "Source resistance"
+        },
+        "correctAnswer": "a",
+        "difficulty": "advanced"
     },
     {
-      "question": "9. How can the Gummel plot aid in optimizing BJT circuit design?",
-      "answers": {
-        "a": "By minimizing thermal resistance",
-        "b": "By maximizing current gain",
-        "c": "By ensuring proper biasing and performance",
-        "d": "By increasing breakdown voltage"
-      },
-      "correctAnswer": "c",
-      "difficulty": "advanced"
+        "question": "9. What happens to the n-channel MOSFET when V_G < V_T?",
+        "answers": {
+            "a": "The drain current increases exponentially",
+            "b": "The MOSFET enters the linear region",
+            "c": "The channel does not form, and the MOSFET remains off",
+            "d": "The source voltage becomes negative"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
     },
     {
-      "question": "10. What region of operation is characterized by a Gummel plot where collector current (I_C) remains relatively constant with changes in base-emitter voltage (V_BE)?",
-      "answers": {
-        "a": "Cut-off",
-        "b": "Active",
-        "c": "Saturation",
-        "d": "Breakdown"
-      },
-      "correctAnswer": "c",
-      "difficulty": "advanced"
+        "question": "10. In which application is the n-channel MOSFET typically used in the saturation region?",
+        "answers": {
+            "a": "Voltage regulator",
+            "b": "Switching circuit",
+            "c": "Digital logic inverter",
+            "d": "Analog amplifier"
+        },
+        "correctAnswer": "d",
+        "difficulty": "advanced"
     }
+
+    
   ]
 }
