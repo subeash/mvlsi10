@@ -1,1 +1,1 @@
-## PMOS Capacitor Band Diagram &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/iitkgp.png" width="3%" />
+## Output characteristics of an n-channel MOSFET &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/iitkgp.png" width="3%" />
